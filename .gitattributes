@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# https://wired-dollar.github.io/newScrapper/
+# https://github.com/Wired-Dollar/newScrapper
+# https://dashboard.heroku.com/apps/newzs-crapper
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+
+mongoose.connect(MONGODB_URI);
